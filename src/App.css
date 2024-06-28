@@ -1,0 +1,75 @@
+.button-grp button, .job-container .loc{
+  display: flex;
+  align-items: center;
+}
+.button-grp button i{
+  margin-right: 5px;
+}
+.sidebar nav ul li {
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 2px;
+  justify-content: space-between;
+}
+
+.sidebar nav ul li i,
+.header nav a i {
+  margin-right: 10px;
+}
+
+.sidebar nav ul li span {
+  width: 6rem;
+  text-align: right;
+}
+
+.header nav a {
+  align-items: center;
+  display: flex;
+  padding: 2px;
+  justify-content: space-between;
+}
+
+.header nav a:first-child {
+  background-color: rgb(239 68 68);
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.header nav {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.subnav {
+  border-bottom: 1px solid #ccc;
+}
+
+.subnav nav ul {
+  display: flex;
+}
+
+.subnav nav ul li {
+  padding: 5px 20px;
+}
+
+.subnav nav ul li:first-child button {
+  color: rgb(181, 8, 8);
+  border-bottom: 1px solid rgb(181, 8, 8);
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills p {
+  line-height: 30px;
+}
+
+.sidebar {
+  border-left: 1px solid #ccc;
+  height: 150vh;
+}
